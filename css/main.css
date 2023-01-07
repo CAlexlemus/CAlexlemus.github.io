@@ -1,0 +1,775 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+body{
+	background: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Diseño del día*/
+#dia{
+	position: absolute;
+	width: 52%;
+	height: 102.9vh;
+	background: #43C6AC;  
+	background: -webkit-linear-gradient(to bottom, #24243e, #43C6AC);  
+	background: linear-gradient(to bottom, #24243e, #43C6AC); 
+	margin-left: -3%;
+	margin-top: -2%;
+}
+
+/*Diseño de la noche*/
+#noche{
+	position: absolute;
+	width: 50.4%;
+	height: 102.9vh;
+	margin-left: 49%;
+	margin-top: -2%;
+	background: #f46b45;  
+	background: -webkit-linear-gradient(to top, #eea849, #f46b45);  
+	background: linear-gradient(to top, #eea849, #f46b45); /
+}
+
+/*Linea de división entre el día y la noche*/
+#div{
+	position: absolute;
+	width: 1%;
+	height: 102.9vh;
+	background: #C33764;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin-left: 48%;
+	margin-top: -2%;
+}
+
+/*Diseño de edificio con ventanas*/
+#ede1{
+	position: absolute;
+	width: 10%;
+	height: 49vh;
+	margin-top: 23.4%;
+	margin-left: -0.5%;
+	background: #18182a;
+	border: 3px solid #F0FFFF;
+
+}
+
+#ede1 #ven{
+	width: 20%;
+	height: 4vh;
+	background: #F0E68C;
+	margin-top: 15%;
+	margin-left: 15%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede1 #ven2{
+	width: 20%;
+	height: 4vh;
+	background: #F0E68C;
+	margin-top: -24%;
+	margin-left: 60%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede1 #ven3{
+	width: 20%;
+	height: 4vh;
+	background: #F0E68C;
+	margin-top: 35%;
+	margin-left: 15%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede1 #ven4{
+	width: 20%;
+	height: 4vh;
+	background: #808080;
+	margin-top: -24%;
+	margin-left: 60%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+
+#ede1 #ven5{
+	width: 20%;
+	height: 4vh;
+	background: #808080;
+	margin-top: 40%;
+	margin-left: 15%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede1 #ven6{
+	width: 20%;
+	height: 4vh;
+	background: #F0E68C;
+	margin-top: -24%;
+	margin-left: 60%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede1 #puerta1{
+	width: 20%;
+	height: 8vh;
+	background: #8B4513;
+	margin-top: 35.8%;
+	margin-left: 40%;
+	border: 3px solid #F0FFFF;
+}
+
+/*Diseño de casa con ventanas*/
+
+#casa{
+	position: absolute;
+	width: 13%;
+	height: 19vh;
+	margin-top: 37.8%;
+	margin-left: 10%;
+	background: #18182a;
+	border: 3px solid #F0FFFF;
+}
+
+#casa #venc{
+	position: absolute;
+	width: 22%;
+	height: 33%;
+	background: #F0E68C;
+	margin-top: 16%;
+	margin-left: 6%;
+	border-radius: 4px;
+	border: 3px solid #F0FFFF;
+}
+
+#casa #venc2{
+	position: absolute;
+	width: 22%;
+	height: 33%;
+	background: #808080;
+	margin-top: 16%;
+	margin-left: 65%;
+	border-radius: 4px;
+	border: 3px solid #F0FFFF;
+}
+
+#casa #puertac{
+	position: absolute;
+	width: 18%;
+	height: 38%;
+	background: #8B4513;
+	margin-top: 41%;
+	margin-left: 38%;
+	border: 3px solid #F0FFFF;
+}
+
+#casa #ch{
+	position: absolute;
+	width: 18%;
+	height: 45%;
+	background: #18182a;
+	margin-top: -35%;
+	border: 3px solid #F0FFFF;
+	margin-left: 68%;
+}
+
+#casa #ch2{
+	position: absolute;
+	width: 30%;
+	height: 18%;
+	background: #18182a;
+	margin-top: -36%;
+	border: 3px solid #F0FFFF;
+	margin-left: 61%;
+}
+
+/*Diseño de casa 2 con ventanas*/
+
+#casa2{
+	position: absolute;
+	width: 13%;
+	height: 19vh;
+	margin-top: 37.8%;
+	margin-left: 23.5%;
+	background: #18182a;
+	border: 3px solid #F0FFFF;
+}
+
+#casa2 #venc{
+	position: absolute;
+	width: 22%;
+	height: 33%;
+	background: #808080;
+	margin-top: 16%;
+	margin-left: 6%;
+	border-radius: 4px;
+	border: 3px solid #F0FFFF;
+}
+
+#casa2 #venc2{
+	position: absolute;
+	width: 22%;
+	height: 33%;
+	background: #808080;
+	margin-top: 16%;
+	margin-left: 65%;
+	border-radius: 4px;
+	border: 3px solid #F0FFFF;
+}
+
+#casa2 #puertac{
+	position: absolute;
+	width: 18%;
+	height: 38%;
+	background: #8B4513;
+	margin-top: 41%;
+	margin-left: 38%;
+	border: 3px solid #F0FFFF;
+}
+
+/*Diseño de edificio 2 con ventanas*/
+
+#ede2{
+	position: absolute;
+	width: 10%;
+	height: 49vh;
+	margin-top: 23.4%;
+	margin-left: 36.9%;
+	background: #18182a;
+	border: 3px solid #F0FFFF;
+
+}
+
+#ede2 #ven{
+	width: 20%;
+	height: 4vh;
+	background: #808080;
+	margin-top: 15%;
+	margin-left: 15%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede2 #ven2{
+	width: 20%;
+	height: 4vh;
+	background: #F0E68C;
+	margin-top: -24%;
+	margin-left: 60%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede2 #ven3{
+	width: 20%;
+	height: 4vh;
+	background: #F0E68C;
+	margin-top: 35%;
+	margin-left: 15%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede2 #ven4{
+	width: 20%;
+	height: 4vh;
+	background: #808080;
+	margin-top: -24%;
+	margin-left: 60%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+
+#ede2 #ven5{
+	width: 20%;
+	height: 4vh;
+	background: #F0E68C;
+	margin-top: 40%;
+	margin-left: 15%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede2 #ven6{
+	width: 20%;
+	height: 4vh;
+	background: #F0E68C;
+	margin-top: -24%;
+	margin-left: 60%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede2 #puerta1{
+	width: 20%;
+	height: 8vh;
+	background: #8B4513;
+	margin-top: 35.8%;
+	margin-left: 40%;
+	border: 3px solid #F0FFFF;
+}
+
+/*Diseño de edificio 3 con ventanas*/
+
+#ede3{
+	position: absolute;
+	width: 10%;
+	height: 49vh;
+	margin-top: 23.4%;
+	margin-left: 49.9%;
+	background: #00825a;
+	border: 3px solid #F0FFFF;
+
+}
+
+#ede3 #ven{
+	width: 20%;
+	height: 4vh;
+	background: #AFEEEE;
+	margin-top: 15%;
+	margin-left: 15%;
+	border-radius: 5px;
+	border: 3px solid #C0C0C0;
+}
+
+#ede3 #ven2{
+	width: 20%;
+	height: 4vh;
+	background: #AFEEEE;
+	margin-top: -24%;
+	margin-left: 60%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede3 #ven3{
+	width: 20%;
+	height: 4vh;
+	background: #AFEEEE;
+	margin-top: 35%;
+	margin-left: 15%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede3 #ven4{
+	width: 20%;
+	height: 4vh;
+	background: #AFEEEE;
+	margin-top: -24%;
+	margin-left: 60%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+
+#ede3 #ven5{
+	width: 20%;
+	height: 4vh;
+	background: #AFEEEE;
+	margin-top: 40%;
+	margin-left: 15%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede3 #ven6{
+	width: 20%;
+	height: 4vh;
+	background: #AFEEEE;
+	margin-top: -24%;
+	margin-left: 60%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede3 #puerta1{
+	width: 20%;
+	height: 8vh;
+	background: #8B4513;
+	margin-top: 35.8%;
+	margin-left: 40%;
+	border: 3px solid #F0FFFF;
+}
+/*Edificio Numero 4*/
+#ede4{
+	position: absolute;
+	width: 10%;
+	height: 49vh;
+	margin-top: 23.4%;
+	margin-left: 60.4%;
+	background: #00825a;
+	border: 3px solid #F0FFFF;
+}
+
+#ede4 #ven{
+	width: 20%;
+	height: 4vh;
+	background: #AFEEEE;
+	margin-top: 15%;
+	margin-left: 15%;
+	border-radius: 5px;
+	border: 3px solid #C0C0C0;
+}
+
+#ede4 #ven2{
+	width: 20%;
+	height: 4vh;
+	background: #AFEEEE;
+	margin-top: -24%;
+	margin-left: 60%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede4 #ven3{
+	width: 20%;
+	height: 4vh;
+	background: #AFEEEE;
+	margin-top: 35%;
+	margin-left: 15%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede4 #ven4{
+	width: 20%;
+	height: 4vh;
+	background: #AFEEEE;
+	margin-top: -24%;
+	margin-left: 60%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+
+#ede4 #ven5{
+	width: 20%;
+	height: 4vh;
+	background: #AFEEEE;
+	margin-top: 40%;
+	margin-left: 15%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede4 #ven6{
+	width: 20%;
+	height: 4vh;
+	background: #AFEEEE;
+	margin-top: -24%;
+	margin-left: 60%;
+	border-radius: 5px;
+	border: 3px solid #F0FFFF;
+}
+
+#ede4 #puerta1{
+	width: 20%;
+	height: 8vh;
+	background: #8B4513;
+	margin-top: 35.8%;
+	margin-left: 40%;
+	border: 3px solid #F0FFFF;
+}
+
+/*Casa Número 3*/
+
+#casa3{
+	position: absolute;
+	width: 13%;
+	height: 19vh;
+	margin-top: 37.8%;
+	margin-left: 70.9%;
+	background: #004275;
+	border: 3px solid #F0FFFF;
+}
+
+#casa3 #venc{
+	position: absolute;
+	width: 22%;
+	height: 33%;
+	background: #AFEEEE;
+	margin-top: 16%;
+	margin-left: 6%;
+	border-radius: 4px;
+	border: 3px solid #F0FFFF;
+}
+
+#casa3 #venc2{
+	position: absolute;
+	width: 22%;
+	height: 33%;
+	background: #AFEEEE;
+	margin-top: 16%;
+	margin-left: 65%;
+	border-radius: 4px;
+	border: 3px solid #F0FFFF;
+}
+
+#casa3 #puertac{
+	position: absolute;
+	width: 18%;
+	height: 38%;
+	background: #8B4513;
+	margin-top: 41%;
+	margin-left: 38%;
+	border: 3px solid #F0FFFF;
+}
+
+/*Casa Numero 4*/
+
+#casa4{
+	position: absolute;
+	width: 13%;
+	height: 19vh;
+	margin-top: 37.8%;
+	margin-left: 84.4%;
+	background: #004275;
+	border: 3px solid #F0FFFF;
+}
+
+#casa4 #venc{
+	position: absolute;
+	width: 22%;
+	height: 33%;
+	background: #AFEEEE;
+	margin-top: 16%;
+	margin-left: 6%;
+	border-radius: 4px;
+	border: 3px solid #F0FFFF;
+}
+
+#casa4 #venc2{
+	position: absolute;
+	width: 22%;
+	height: 33%;
+	background: #AFEEEE;
+	margin-top: 16%;
+	margin-left: 65%;
+	border-radius: 4px;
+	border: 3px solid #F0FFFF;
+}
+
+#casa4 #puertac{
+	position: absolute;
+	width: 18%;
+	height: 38%;
+	background: #8B4513;
+	margin-top: 41%;
+	margin-left: 38%;
+	border: 3px solid #F0FFFF;
+}
+
+/*Diseño de Campo de texto de Encriptación*/
+#txt{
+	position: absolute;
+}
+
+#txt #textoI{
+	width: 85%;
+	height: 35vh;
+	margin-top: -21%;
+	margin-left: -17%;
+	border-radius: 100%;
+	font-size: 19px;
+	color: black;
+	text-align: center;
+	font-family: 'Rowdies', cursive;
+	outline: none;
+	background: #A9A9A9;
+	border: 7px solid #F0FFFF;
+}
+
+/*Diseño de estrellas*/
+#estrella{
+	position: absolute;
+	width: 4%;
+	height: 4vh;
+	margin-top: 2%;
+	margin-left: 22%;
+}
+
+#estrella2{
+	position: absolute;
+	width: 4%;
+	height: 4vh;
+	margin-top:2%;
+	margin-left: 39%;
+}
+
+#estrella3{
+	position: absolute;
+	width: 4%;
+	height: 4vh;
+	margin-top: 11%;
+	margin-left: 31%;
+
+}
+
+#estrella5{
+	position: absolute;
+	width: 4%;
+	height: 4vh;
+	margin-top: 15%;
+	margin-left: 15%;
+}
+
+/*Diseño donde se muestra el mensaje*/
+#persona{
+	position: absolute;
+	width: 25%;
+	height: 30vh;
+	
+	margin-left: 73%;
+	font-family: 'Rowdies', cursive;
+	text-align: center;
+}
+
+
+
+#persona #texto2{
+	display: none;
+	width: 85%;
+	height: 27vh;
+	margin-top: -9%;
+	margin-left: 14%;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 19px;
+	padding-top: 70px;
+	color: white;
+	text-align: center;
+	font-family: 'Rowdies', cursive;
+	outline: none;
+	background: #FFA500;
+	border: 7px solid #FFFF00;
+}
+
+#persona #copy{
+	display: none;
+	background: ;
+	margin-top: 25%;
+	margin-left: 45%;
+	padding: 15px 25px;
+	font-size: 20px;
+	font-family: 'Rowdies', cursive;
+	cursor: pointer;
+	text-align: center;	
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #5d7302;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #DCDCDC;
+}
+
+#persona #copy:hover{
+	background-color: #9ACD32;
+	border: 1px solid white;
+}
+
+
+#copy:active {
+  background-color: #9ACD32;
+  box-shadow: 0 5px #666;
+  font-family: 'Rowdies', cursive;
+  transform: translateY(4px);
+}
+
+/*Espacio para botones Enc. y Des.*/
+#botones{
+	position: absolute;
+	width: 35%;
+	height: 25vh;
+	margin-left: 45%;
+	margin-top: 20%;
+}
+
+/*Edicion de Nubes*/
+#nubes{
+	position: absolute;
+	width: 13%;
+	margin-left: 50%;
+}
+
+/*Estilo Boton Encriptar*/
+#btnE{
+	position: absolute;
+	margin-top: -10%;
+	margin-left: -23%;
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 20px;
+	font-family: 'Rowdies', cursive;
+	cursor: pointer;
+	text-align: center;	
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #24243e;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #DCDCDC;
+}
+
+
+#btnE:hover{
+	background-color: #006775;
+	border: 1px solid white;
+}
+
+
+#btnE:active {
+  background-color: #24243e,;
+  box-shadow: 0 5px #666;
+  font-family: 'Rowdies', cursive;
+  transform: translateY(4px);
+}
+
+/*Estilo Boton Desencriptar*/
+#btnD{
+	position: absolute;
+	margin-top: -10%;
+	margin-left: 13%;
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 20px;
+	font-family: 'Rowdies', cursive;
+	cursor: pointer;
+	text-align: center;	
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #ED8F03;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #DCDCDC;
+}
+
+
+#btnD:hover{
+	background-color:#FFB75E ;
+	border: 1px solid white;
+}
+
+
+#btnD:active {
+  background-color: #24243e,;
+  box-shadow: 0 5px #666;
+  font-family: 'Rowdies', cursive;
+  transform: translateY(4px);
+}
+
+#identi{
+	position: absolute;
+	font-size: 1em;
+	margin-top: 36.5%;
+	margin-left: 73%;
+	font-family: 'Rowdies', cursive;
+}
